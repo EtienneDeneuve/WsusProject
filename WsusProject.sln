@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WsusWebApi", "WsusWebApi\WsusWebApi.csproj", "{BC43FBA7-EB0F-4EA1-8920-117724ED2235}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D58BF7D5-BF10-42C8-AED0-27FC85BE60EB} = {D58BF7D5-BF10-42C8-AED0-27FC85BE60EB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WsusWebClient", "WsusWebClient\WsusWebClient.csproj", "{39CB98E9-CC92-4CA3-9244-557457B76C8A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BC43FBA7-EB0F-4EA1-8920-117724ED2235} = {BC43FBA7-EB0F-4EA1-8920-117724ED2235}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{D0CBF4BF-BCA5-40A4-95F5-6FE6F3D592A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WsusDataWepApi", "WsusDataWepApi\WsusDataWepApi.csproj", "{D58BF7D5-BF10-42C8-AED0-27FC85BE60EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC43FBA7-EB0F-4EA1-8920-117724ED2235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC43FBA7-EB0F-4EA1-8920-117724ED2235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC43FBA7-EB0F-4EA1-8920-117724ED2235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC43FBA7-EB0F-4EA1-8920-117724ED2235}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39CB98E9-CC92-4CA3-9244-557457B76C8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39CB98E9-CC92-4CA3-9244-557457B76C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39CB98E9-CC92-4CA3-9244-557457B76C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39CB98E9-CC92-4CA3-9244-557457B76C8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0CBF4BF-BCA5-40A4-95F5-6FE6F3D592A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0CBF4BF-BCA5-40A4-95F5-6FE6F3D592A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0CBF4BF-BCA5-40A4-95F5-6FE6F3D592A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0CBF4BF-BCA5-40A4-95F5-6FE6F3D592A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D58BF7D5-BF10-42C8-AED0-27FC85BE60EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D58BF7D5-BF10-42C8-AED0-27FC85BE60EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D58BF7D5-BF10-42C8-AED0-27FC85BE60EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D58BF7D5-BF10-42C8-AED0-27FC85BE60EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
